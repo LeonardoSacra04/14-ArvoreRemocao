@@ -313,6 +313,7 @@ NO* removerArvore(NO* no, int valor) {
             free(no);
             return NULL;
         }
+
         else if (no->esq == NULL)
         {
             NO* aux = no->dir;
